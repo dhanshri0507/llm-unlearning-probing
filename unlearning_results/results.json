@@ -1,0 +1,23 @@
+{
+  "behavioral": {
+    "original": {
+      "forget_rouge": 0.3063,
+      "retain_rouge": 0.2993
+    },
+    "npo_rt": {
+      "forget_rouge": 0.1481,
+      "retain_rouge": 0.2599
+    }
+  },
+  "representational": {
+    "original": {
+      "mean_probe_acc": 0.543125,
+      "layer_20_acc": 0.505
+    },
+    "npo_rt": {
+      "mean_probe_acc": 0.620625,
+      "layer_20_acc": 0.605
+    }
+  },
+  "hypothesis_supported": true
+}
