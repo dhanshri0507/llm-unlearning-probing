@@ -88,7 +88,7 @@ Dual-axis loss curve over 100 training steps. NPO loss (forget, red) decreases m
 
 The post-unlearning **increase** in probe accuracy is not predicted by a simple output-suppression account of NPO+RT. A suppression-only mechanism would leave probe accuracy approximately constant (the representations would be unchanged, only the output head would re-weight them).
 
-The observed pattern — stable behavioral metrics for retain, reduced behavioral metrics for forget, *but higher* representational separability is consistent with a **knowledge reorganization hypothesis**: NPO+RT's gradient updates push forget-entity representations into a more geometrically distinct subspace in deeper layers, where a linear probe can more easily decode class membership, while the output layers learn to ignore or suppress that subspace during generation.
+The observed pattern stable behavioral metrics for retain, reduced behavioral metrics for forget, *but higher* representational separability is consistent with a **knowledge reorganization hypothesis**: NPO+RT's gradient updates push forget-entity representations into a more geometrically distinct subspace in deeper layers, where a linear probe can more easily decode class membership, while the output layers learn to ignore or suppress that subspace during generation.
 
 This has immediate implications for GDPR compliance: a model that passes standard unlearning benchmarks (output-level ROUGE-L) may still be vulnerable to representation-level extraction via activation probing or model internals analysis.
 
