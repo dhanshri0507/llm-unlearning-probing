@@ -158,8 +158,3 @@ And the TOFU benchmark:
 }
 ```
 
----
-
-## License
-
-MIT License. The TOFU dataset is released under its own license; see [locuslab/TOFU](https://huggingface.co/datasets/locuslab/TOFU).
